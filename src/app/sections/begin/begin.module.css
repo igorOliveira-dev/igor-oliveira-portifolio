@@ -38,33 +38,42 @@
   margin-bottom: 10px;
 }
 
-.typewriter {
-  font-family: monospace;
-  display: inline-block;
-  font-size: 17px;
-  width: 50ch;
-  overflow: hidden;
-  border-right: 0.15em solid #fdfdfd;
+.carrossel {
   white-space: nowrap;
-  animation: typing 3.5s steps(50, end), blink-caret 0.75s step-end infinite;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+  width: 470px;
+  display: flex;
+  align-items: center;
 }
 
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
+@media (width < 770px) {
+  .carrossel {
     width: 100%;
   }
+  .title {
+    font-size: 60px;
+  }
+  .subtitle {
+    font-size: 26px;
+  }
 }
 
-@keyframes blink-caret {
-  from,
-  to {
-    border-color: transparent;
+.carrosselText {
+  font-size: 24px;
+  font-weight: bolder;
+  display: inline-block;
+  padding-left: 100%;
+  animation: moveText 10s linear infinite;
+}
+
+@keyframes moveText {
+  0% {
+    transform: translateX(0%);
   }
-  50% {
-    border-color: #fdfdfd;
+  100% {
+    transform: translateX(-100%);
   }
 }
 
@@ -141,16 +150,4 @@
 
 .viewSiteContent:hover {
   scale: 1.05;
-}
-
-@media (width < 770px) {
-  .title {
-    font-size: 60px;
-  }
-  .subtitle {
-    font-size: 26px;
-  }
-  .typewriter {
-    display: none;
-  }
 }

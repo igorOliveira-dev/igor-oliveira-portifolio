@@ -10,7 +10,9 @@ const Begin = () => {
       <div className={S.left}>
         <h1 className={S.title}>Igor Oliveira</h1>
         <h2 className={S.subtitle}>Desenvolvedor Full-Stack</h2>
-        <div className={S.typewriter}>Transforme suas ideias em código com o melhor dev!</div>
+      </div>
+      <div className={S.carrossel}>
+        <div className={S.carrosselText}>Transforme suas ideias em código com o melhor dev 😎</div>
       </div>
       <button className={`transition-all ${S.glowBtn}`}>Entre em contato</button>
       <Link href="#site-content" className={S.viewSiteContent}>
