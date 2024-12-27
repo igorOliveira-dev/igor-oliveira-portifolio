@@ -1,0 +1,20 @@
+.sidebar {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+.sidebarBtn {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-sizing: content-box;
+  padding: 10px;
+  & > span {
+    width: 100%;
+    height: 5px;
+    background-color: #fdfdfd;
+  }
+}
