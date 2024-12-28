@@ -1,5 +1,4 @@
 .screen {
-  height: 100vh;
   padding-inline: 20px;
 }
 
@@ -82,4 +81,5 @@
   position: relative;
   left: 50%;
   transform: translateX(-50%);
+  margin-bottom: 40px;
 }
