@@ -27,10 +27,13 @@ const Sidebar = () => {
         onClick={toggleMenu}
       >
         <li>
-          <Link href="#inicio">Início</Link>
+          <Link href="#begin">Início</Link>
         </li>
         <li>
           <Link href="#benefits">Benefícios</Link>
+        </li>
+        <li>
+          <Link href="#contact">Contato</Link>
         </li>
       </ul>
     </div>
