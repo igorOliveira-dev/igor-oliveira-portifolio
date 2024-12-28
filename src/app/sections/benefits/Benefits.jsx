@@ -3,12 +3,47 @@
 import React, { useState } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import S from "./benefits.module.css";
+import Image from "next/image";
 
 const Benefits = () => {
   const items = [
-    { id: 1, title: "Título 1", description: "Descrição do item 1" },
-    { id: 2, title: "Título 2", description: "Descrição do item 2" },
-    { id: 3, title: "Título 3", description: "Descrição do item 3" },
+    {
+      id: 1,
+      title: "SEO Otimizado",
+      description:
+        "Com minha experiência em SEO, seu site irá atrair muitos visitantes de qualidade que o encontrarão facilmente no Google.",
+    },
+    {
+      id: 2,
+      title: "Sites Rápidos com Next.js",
+      description: "Uso Next.js, uma tecnologia de desempenho excelente em qualquer dispositivo.",
+    },
+    {
+      id: 3,
+      title: "Design Moderno",
+      description: "Visual deslumbrante e funcional para atrair e conquistar seus clientes.",
+    },
+    {
+      id: 4,
+      title: "Automatização de Processos",
+      description:
+        "Também posso automatizar os processos da sua empresa, aumentando muito a produtividade da maneira mais tecnológica.",
+    },
+    {
+      id: 5,
+      title: "Suporte Contínuo",
+      description: "Faço acompanhamento e atualizações no seu projeto sempre que for necessário.",
+    },
+    {
+      id: 6,
+      title: "Sites Responsivos",
+      description: "Torno a experiência dos usuários perfeita em qualquer dispositivo, seja smartphone, tablet ou desktop.",
+    },
+    {
+      id: 7,
+      title: "Resultados Rápidos",
+      description: "Soluções rápidas para seu negócio crescer online com muita eficácia.",
+    },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -47,6 +82,7 @@ const Benefits = () => {
           <FaArrowRight />
         </button>
       </div>
+      <Image src="/logoPNG.png" alt="logo" width={200} height={200} className={S.image} />
     </section>
   );
 };

@@ -9,6 +9,7 @@
   text-align: center;
   font-size: 30px;
   padding-top: 30px;
+  font-weight: bold;
 }
 
 .container {
@@ -63,5 +64,25 @@
 @media (width < 540px) {
   .carouselBtn {
     padding: 0;
+  }
+}
+
+.image {
+  position: absolute;
+  z-index: -1;
+  opacity: 0.4;
+  transform: translate(-100%, 150%) rotate(0);
+  animation: imageFly 30s alternate infinite ease-in-out;
+}
+
+@keyframes imageFly {
+  25% {
+    transform: translate(100%, -50%) rotate(180deg);
+  }
+  50% {
+    transform: translate(100%, 100%) rotate(-90deg);
+  }
+  75% {
+    transform: translate(10%, 10%) rotate(90deg);
   }
 }
