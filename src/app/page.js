@@ -1,12 +1,12 @@
 import Sidebar from "./components/sidebar/Sidebar";
-import Begin from "./sections/begin/Begin";
-import SiteContent from "./sections/siteContent/SiteContent";
+import Benefits from "./sections/begin/Begin";
+import SiteContent from "./sections/benefits/Benefits";
 
 export default function Home() {
   return (
     <main>
       <Sidebar />
-      <Begin />
+      <Benefits />
       <SiteContent />
     </main>
   );

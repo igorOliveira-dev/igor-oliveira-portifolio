@@ -30,3 +30,8 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #ce73f5;
 }
+
+section {
+  height: 100vh;
+  padding-top: 70px;
+}
