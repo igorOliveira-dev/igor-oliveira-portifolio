@@ -4,6 +4,7 @@
   align-items: center;
   flex-direction: column;
   padding: 20px;
+  height: 100vh;
 }
 
 /* #9b73f5, #7873f5, #ce73f5, #e355ff, #9b73f5, #7873f5, #ce73f5, #e355ff */
