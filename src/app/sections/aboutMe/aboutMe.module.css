@@ -1,0 +1,30 @@
+.screen {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fdfdfd08;
+}
+
+.title {
+  font-size: 30px;
+  padding-top: 30px;
+  font-weight: bold;
+}
+
+.text {
+  max-width: 520px;
+}
+
+.paragraph {
+  margin-bottom: 5px;
+}
+
+.link {
+  text-decoration: underline;
+  color: #ccc;
+  transition: 0.4s;
+  &:hover {
+    color: #ddd;
+  }
+}
