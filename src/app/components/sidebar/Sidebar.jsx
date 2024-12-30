@@ -30,10 +30,13 @@ const Sidebar = () => {
           <Link href="#begin">Início</Link>
         </li>
         <li>
-          <Link href="#benefits">Benefícios</Link>
+          <Link href="#aboutme">Sobre mim</Link>
         </li>
         <li>
-          <Link href="#aboutme">Sobre mim</Link>
+          <Link href="#projects">Meus projetos</Link>
+        </li>
+        <li>
+          <Link href="#benefits">Benefícios</Link>
         </li>
         <li>
           <Link href="#contact">Contato</Link>
