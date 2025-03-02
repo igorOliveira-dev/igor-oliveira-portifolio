@@ -18,7 +18,7 @@ const Begin = () => {
         <button className={`transition-all ${S.glowBtn}`}>Entre em contato</button>
       </Link>
       <Link href="#benefits" className={S.viewSiteContent}>
-        Veja o que você pode ter no seu projeto <FontAwesomeIcon icon={faChevronDown} className="h-6" />
+        Veja as minhas habilidades <FontAwesomeIcon icon={faChevronDown} className="h-6" />
       </Link>
     </section>
   );

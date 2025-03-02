@@ -9,40 +9,45 @@ const Benefits = () => {
   const items = [
     {
       id: 1,
-      title: "SEO Otimizado",
+      title: "Soluções Inovadoras",
       description:
-        "Com minha experiência em SEO, seu site irá atrair muitos visitantes de qualidade que o encontrarão facilmente no Google.",
+        "Desenvolvo sistemas robustos e escaláveis utilizando as tecnologias mais modernas, garantindo inovação e performance para transformar seu negócio.",
     },
     {
       id: 2,
-      title: "Sites Rápidos com Next.js",
-      description: "Uso Next.js, uma tecnologia de desempenho excelente em qualquer dispositivo.",
+      title: "Full Stack",
+      description:
+        "Minha expertise abrange tanto front-end quanto back-end, possibilitando integrações perfeitas que unem design e funcionalidade de forma excepcional.",
     },
     {
       id: 3,
-      title: "Design Moderno",
-      description: "Visual deslumbrante e funcional para atrair e conquistar seus clientes.",
+      title: "Arquitetura Eficiente",
+      description:
+        "Projeto soluções com foco em escalabilidade, segurança e alta performance, preparando sua empresa para o crescimento e os desafios futuros.",
     },
     {
       id: 4,
-      title: "Automatização de Processos",
+      title: "Automação Avançada",
       description:
-        "Também posso automatizar os processos da sua empresa, aumentando muito a produtividade da maneira mais tecnológica.",
+        "Crio sistemas que automatizam processos críticos, aumentando a produtividade e otimizando operações com precisão tecnológica.",
     },
     {
       id: 5,
-      title: "Suporte Contínuo",
-      description: "Faço acompanhamento e atualizações no seu projeto sempre que for necessário.",
+      title: "Sistemas Conectados",
+      description:
+        "Experiência na integração de múltiplas plataformas e APIs, facilitando a comunicação entre sistemas e a gestão inteligente de dados.",
     },
     {
       id: 6,
-      title: "Sites Responsivos",
-      description: "Torno a experiência dos usuários perfeita em qualquer dispositivo, seja smartphone, tablet ou desktop.",
+      title: "Versatilidade Técnica",
+      description:
+        "Habilidades que englobam desde desenvolvimento web e mobile até automação e inteligência artificial, oferecendo soluções completas e inovadoras.",
     },
     {
       id: 7,
-      title: "Resultados Rápidos",
-      description: "Soluções rápidas para seu negócio crescer online com muita eficácia.",
+      title: "Suporte Contínuo",
+      description:
+        "Acompanhamento proativo com atualizações estratégicas, mantendo seus sistemas alinhados com as últimas tendências tecnológicas e as demandas do mercado.",
     },
   ];
 
@@ -58,7 +63,7 @@ const Benefits = () => {
 
   return (
     <section className={S.screen} id="benefits">
-      <h1 className={S.title}>O que vai ter no seu projeto?</h1>
+      <h1 className={S.title}>Minhas habilidades</h1>
       <div className={S.container}>
         <button className={S.carouselBtn} onClick={handlePrevClick}>
           <FaArrowLeft />

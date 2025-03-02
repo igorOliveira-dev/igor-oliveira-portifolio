@@ -8,9 +8,9 @@ const AboutMe = () => {
       <div className={S.text}>
         <h1 className={S.title}>Sobre mim</h1>
         <p className={S.paragraph}>
-          Meu nome é Igor Ventura de Oliveira, sou programador web com 16 anos e cerca de dois anos de experiência. Domino tecnologias
-          como React, Next.js, Node.js, Figma e Firebase, e estou no terceiro ano do curso técnico em Desenvolvimento de Sistemas na
-          ETEC.
+          Meu nome é Igor Ventura de Oliveira, sou programador web com 17 anos e cerca de três anos de experiência. Domino tecnologias
+          como React, Next.js, Node.js, Figma, Firebase e inúmeras outras. Estou no terceiro ano do curso técnico em Desenvolvimento de Sistemas na
+          ETEC (Escola Técnica Estadual).
         </p>
         <p className={S.paragraph}>
           Trabalho como freelancer e desenvolvendo{" "}
