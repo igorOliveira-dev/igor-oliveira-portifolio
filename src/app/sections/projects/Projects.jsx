@@ -16,9 +16,16 @@ const projects = [
   },
   {
     name: "Mind",
-    description: "Projeto de assistente de saúde mental, com um teste de saúde mental e uma comunidade",
+    description: "Projeto de assistente de saúde mental, com um teste de saúde mental e uma comunidade.",
     link: "https://mindv2.vercel.app/",
     repo: "https://github.com/igorOliveira-dev/Mind",
+  },
+  {
+    name: "Delivery App",
+    description:
+      "Site de delivery, você faz o seu login, pede produtos e as informações aparecerão pra quem tem cargo pra vê-las.",
+    link: "https://delivery-app-livid.vercel.app/",
+    repo: "https://github.com/igorOliveira-dev/delivery-app",
   },
 ];
 
